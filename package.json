@@ -1,0 +1,16 @@
+{
+  "name": "csv-export-dates",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome lint src"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4",
+    "typescript": "5.9.3",
+    "vitest": "3.2.4"
+  }
+}
